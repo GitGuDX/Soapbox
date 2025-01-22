@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b8c364ffb330d47843fed3c7efc138, type: 3}
+  m_Name: Comment 2
+  m_EditorClassIdentifier: 
+  comment: 'Like QUality +10
+
+    Dislike popularity +10 money -30'
+  profile: {fileID: 21300000, guid: a13e06b51e6cd024595affc854ea8ccf, type: 3}
+  affectedVariablesLike: 02000000
+  affectedValuesLike: 0a000000
+  affectedVariablesDislike: 0100000000000000
+  affectedValuesDislike: 0a000000e2ffffff
