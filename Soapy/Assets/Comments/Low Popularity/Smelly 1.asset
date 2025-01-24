@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b8c364ffb330d47843fed3c7efc138, type: 3}
+  m_Name: Smelly 1
+  m_EditorClassIdentifier: 
+  specialTrigger: 0
+  userName: Smelly
+  comment: Soap? BLEGH! We hate soap, and we hate Bubbly even more! If they update
+    their formula to make it less soapy, I might give it another try...
+  profile: {fileID: 0}
+  moneyL: -10
+  governmentL: 0
+  popularityL: 20
+  qualityL: -10
+  moneyD: 15
+  governmentD: 0
+  popularityD: -15
+  qualityD: 15

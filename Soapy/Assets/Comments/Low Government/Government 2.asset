@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b8c364ffb330d47843fed3c7efc138, type: 3}
+  m_Name: Government 2
+  m_EditorClassIdentifier: 
+  specialTrigger: 0
+  userName: Government
+  comment: All companies must comply with our new chemical regulations, especially
+    soap producers. You must only use the products we approve of.
+  profile: {fileID: 0}
+  moneyL: 0
+  governmentL: 20
+  popularityL: 0
+  qualityL: 15
+  moneyD: 0
+  governmentD: -15
+  popularityD: 0
+  qualityD: -15
