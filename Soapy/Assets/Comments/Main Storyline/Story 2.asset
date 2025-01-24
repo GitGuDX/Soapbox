@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   specialTrigger: 2
   userName: Anonymous
-  comment: Main Story 2
+  comment: I have some new info. There's a special product you need to put in your
+    soap. It's gonna affect its quality, but it's for a good cause. I also need some
+    money.
   profile: {fileID: 21300000, guid: 799819b48e54b304f860feef614a9dbe, type: 3}
   moneyL: 0
   governmentL: 0

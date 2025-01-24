@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Story 5
   m_EditorClassIdentifier: 
   specialTrigger: 2
-  userName: Anonymous
-  comment: Main Story 5
+  userName: Alien
+  comment: GLORPY WORPY MORPY &&$##&^### COMMUNICATION WITH SOAP DONE SUCCESSFULLY
   profile: {fileID: 21300000, guid: 799819b48e54b304f860feef614a9dbe, type: 3}
   moneyL: 0
   governmentL: 0

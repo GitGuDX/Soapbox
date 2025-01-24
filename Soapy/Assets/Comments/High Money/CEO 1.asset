@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b8c364ffb330d47843fed3c7efc138, type: 3}
+  m_Name: CEO 1
+  m_EditorClassIdentifier: 
+  specialTrigger: 0
+  userName: CEO
+  comment: "If we were to choose between Bubbly's monopoly and Mubbly's monopoly,
+    we would definitely choose ours. We're clearly the good guys here.\r"
+  profile: {fileID: 21300000, guid: 4268abdc066d2c74cb80739c8b0dfc2b, type: 3}
+  moneyL: 5
+  governmentL: 0
+  popularityL: 0
+  qualityL: 0
+  moneyD: 0
+  governmentD: 0
+  popularityD: -5
+  qualityD: 0

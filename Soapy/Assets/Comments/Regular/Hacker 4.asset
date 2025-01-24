@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b8c364ffb330d47843fed3c7efc138, type: 3}
+  m_Name: Hacker 4
+  m_EditorClassIdentifier: 
+  specialTrigger: 0
+  userName: Hacker
+  comment: "Data leaks from your servers reveals your products use some\u2026 questionable
+    ingredients.  Would be a shame if someone official were to find out about this\u2026
+    or maybe they won't... if you have enough to pay us...\r"
+  profile: {fileID: 21300000, guid: 4268abdc066d2c74cb80739c8b0dfc2b, type: 3}
+  moneyL: -25
+  governmentL: 0
+  popularityL: 0
+  qualityL: -5
+  moneyD: 0
+  governmentD: -20
+  popularityD: -10
+  qualityD: 10

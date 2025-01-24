@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b8c364ffb330d47843fed3c7efc138, type: 3}
+  m_Name: Chic 2
+  m_EditorClassIdentifier: 
+  specialTrigger: 0
+  userName: Chic
+  comment: My skin has red scars and pimples like the homeless person down the street,
+    what's the point of being part of the social elites  if they can't differentiate
+    you from the filthy peasants of the working class?!?
+  profile: {fileID: 0}
+  moneyL: 10
+  governmentL: 0
+  popularityL: -20
+  qualityL: 0
+  moneyD: -5
+  governmentD: 0
+  popularityD: 15
+  qualityD: 0
