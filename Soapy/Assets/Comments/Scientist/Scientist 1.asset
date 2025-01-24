@@ -10,19 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 46b8c364ffb330d47843fed3c7efc138, type: 3}
-  m_Name: Comment 2
+  m_Name: Scientist 1
   m_EditorClassIdentifier: 
-  specialTrigger: 0
-  userName: Doudou Lapin 2
-  comment: 'Like QUality +10
-
-    Dislike popularity +10 money -30'
-  profile: {fileID: 21300000, guid: a13e06b51e6cd024595affc854ea8ccf, type: 3}
-  moneyL: 0
-  governmentL: 0
-  popularityL: 0
-  qualityL: 10
-  moneyD: -30
-  governmentD: 0
-  popularityD: 10
-  qualityD: 0
+  specialTrigger: 1
+  userName: Scientist
+  comment: First upgrade
+  profile: {fileID: 21300000, guid: 334f37cd3a1b12341b1541b3d85d602b, type: 3}
+  affectedVariablesLike: 
+  affectedValuesLike: []
+  affectedVariablesDislike: 
+  affectedValuesDislike: []

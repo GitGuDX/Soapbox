@@ -12,11 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46b8c364ffb330d47843fed3c7efc138, type: 3}
   m_Name: Comment 3
   m_EditorClassIdentifier: 
+  specialTrigger: 0
+  userName: Doudou Lapin 3
   comment: 'Like Nothing
 
     Dislike government +5'
   profile: {fileID: 21300000, guid: 8d193611e065a2144a62b5a9d838cce4, type: 3}
-  affectedVariablesLike: 
-  affectedValuesLike: 
-  affectedVariablesDislike: 03000000
-  affectedValuesDislike: 05000000
+  moneyL: 0
+  governmentL: 0
+  popularityL: 0
+  qualityL: 0
+  moneyD: 0
+  governmentD: 5
+  popularityD: 0
+  qualityD: 0

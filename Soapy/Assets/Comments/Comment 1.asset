@@ -12,9 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46b8c364ffb330d47843fed3c7efc138, type: 3}
   m_Name: Comment 1
   m_EditorClassIdentifier: 
-  comment: money -10 if like, pop +20 if dislike
+  specialTrigger: 0
+  userName: Doudou Lapin 1
+  comment: 'money -10 if like
+
+    gov +20 if dislike'
   profile: {fileID: 21300000, guid: 4268abdc066d2c74cb80739c8b0dfc2b, type: 3}
-  affectedVariablesLike: 00000000
-  affectedValuesLike: f6ffffff
-  affectedVariablesDislike: 01000000
-  affectedValuesDislike: 14000000
+  moneyL: -10
+  governmentL: 0
+  popularityL: 0
+  qualityL: 0
+  moneyD: 0
+  governmentD: 20
+  popularityD: 0
+  qualityD: 0
