@@ -19,6 +19,9 @@ public class Main : MonoBehaviour
 	[Space]
 	
 	[SerializeField] int money , popularity, quality, government;
+
+	[SerializeField] CharacterMove characterMove;
+	[SerializeField] CommentMove commentMove;
 	
 	private void Start(){
 		
@@ -31,7 +34,8 @@ public class Main : MonoBehaviour
 		
 		affectStats(currentComment.affectedVariablesLike, currentComment.affectedValuesLike);
 		pickNextComment();
-		updateUI();
+		characterMove.StartCoroutine("Transition");
+		commentMove.StartCoroutine("Transition");
 		
 	}
 	
@@ -39,7 +43,10 @@ public class Main : MonoBehaviour
 		
 		affectStats(currentComment.affectedVariablesDislike, currentComment.affectedValuesDislike);
 		pickNextComment();
-		updateUI();
+
+
+		characterMove.StartCoroutine("Transition");
+		commentMove.StartCoroutine("Transition");
 		
 	}
 	
@@ -50,7 +57,7 @@ public class Main : MonoBehaviour
 		
 	}
 	
-	private void updateUI(){
+	public void updateUI(){
 	
 		profile.sprite = currentComment.profile;
 		dialogueText.text = currentComment.comment;
