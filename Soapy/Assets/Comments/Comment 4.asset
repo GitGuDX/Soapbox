@@ -15,7 +15,7 @@ MonoBehaviour:
   comment: 'Like Government -50
 
     Dislike Popularity -20 quality +10'
-  profile: {fileID: 21300000, guid: a13e06b51e6cd024595affc854ea8ccf, type: 3}
+  profile: {fileID: 21300000, guid: 020801a9e17c1424eb8132f8553b4d2f, type: 3}
   affectedVariablesLike: 03000000
   affectedValuesLike: ceffffff
   affectedVariablesDislike: 0100000002000000

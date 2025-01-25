@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Comment 1
   m_EditorClassIdentifier: 
   comment: money -10 if like, pop +20 if dislike
-  profile: {fileID: 21300000, guid: 4268abdc066d2c74cb80739c8b0dfc2b, type: 3}
+  profile: {fileID: 21300000, guid: 92bc4bddafb5d45bb924b76559f08ec1, type: 3}
   affectedVariablesLike: 00000000
   affectedValuesLike: f6ffffff
   affectedVariablesDislike: 01000000

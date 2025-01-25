@@ -15,7 +15,7 @@ MonoBehaviour:
   comment: 'Like QUality +10
 
     Dislike popularity +10 money -30'
-  profile: {fileID: 21300000, guid: a13e06b51e6cd024595affc854ea8ccf, type: 3}
+  profile: {fileID: 21300000, guid: fffdafa5826f3492681919afa83a7304, type: 3}
   affectedVariablesLike: 02000000
   affectedValuesLike: 0a000000
   affectedVariablesDislike: 0100000000000000
