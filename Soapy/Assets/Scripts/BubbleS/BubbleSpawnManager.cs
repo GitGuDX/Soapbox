@@ -14,7 +14,7 @@ public class BubbleSpawnManager : MonoBehaviour
     void Start()
     {
         bubbleXposition = new float[] { -350f, -250f, -150f, 50f, 150f, 250f, 350f };
-        InvokeRepeating("SpawningBubble", 0f, 3f);
+        InvokeRepeating("SpawningBubble", 0f, 2.5f);
         
         
     }

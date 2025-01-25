@@ -5,15 +5,17 @@ using UnityEngine;
 public class BubbleMovement : MonoBehaviour
 {
     private Vector3 startPoint;
+//private Vector3 newStartPoint;
     private Vector3 endPoint;
-    private float desiredDuration = 3f;
+    private float desiredDuration = 2f;
     private float elapsedTime;
+    private float xInterval = 50f;
     // Start is called before the first frame update
     void Start()
     {
-        startPoint = transform.position;
-        endPoint = startPoint + new Vector3(25f, 0f, 0f);
-       //StartCoroutine(FirstLerp());
+        
+        
+       StartCoroutine(FirstLerp());
        StartCoroutine(DeleteBubble());
      
     }
@@ -21,7 +23,7 @@ public class BubbleMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.up * 40f * Time.deltaTime);
+        // transform.Translate(Vector3.up * 40f * Time.deltaTime);
        
     }
 
@@ -34,8 +36,18 @@ public class BubbleMovement : MonoBehaviour
         Destroy(gameObject);
     }
 
+
+
+
+
+
+
+
+
     IEnumerator FirstLerp()
     {
+        startPoint = transform.position;
+        endPoint = startPoint + new Vector3(xInterval, 0f, 0f);
         elapsedTime = 0;
         while (elapsedTime < desiredDuration)
         {
@@ -45,7 +57,6 @@ public class BubbleMovement : MonoBehaviour
             elapsedTime += Time.deltaTime;
             yield return null;
         }
-        transform.position = endPoint;
 
 
         StartCoroutine(SecondLerp());
@@ -54,17 +65,21 @@ public class BubbleMovement : MonoBehaviour
     IEnumerator SecondLerp()
     {
 
+        Vector3 newStartPoint = transform.position + new Vector3(-xInterval, 0f, 0f);
+        endPoint = transform.position;
         elapsedTime = 0;
         while (elapsedTime < desiredDuration)
-        {
+        { 
+
             float percentageComplete = elapsedTime / desiredDuration;
-            Vector3 lerpedPosition = Vector3.Lerp(endPoint, startPoint, percentageComplete);
+            Vector3 lerpedPosition = Vector3.Lerp(endPoint, newStartPoint, percentageComplete);
             transform.position = new Vector3(lerpedPosition.x, transform.position.y + (40f * Time.deltaTime), lerpedPosition.z);
             elapsedTime += Time.deltaTime;
             yield return null;
         }
-        transform.position = endPoint;
+        
         //transform.Rotate(0f, 90f, 0f);
         StartCoroutine(FirstLerp());
     }
+    
 }
