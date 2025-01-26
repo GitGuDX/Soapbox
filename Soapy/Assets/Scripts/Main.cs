@@ -288,7 +288,6 @@ public class Main : MonoBehaviour
 		
 		Debug.Log(money);
 		
-		/*
 		if (money >= 200) GameOver.SetGameOver(0);
 		else if (money <= 0) GameOver.SetGameOver(1);
 		else if (popularity >= 200) GameOver.SetGameOver(2);
@@ -297,7 +296,6 @@ public class Main : MonoBehaviour
 		else if (quality <= 0) GameOver.SetGameOver(5);
 		else if (government >= 200) GameOver.SetGameOver(6);
 		else if (government <= 0) GameOver.SetGameOver(7);
-		*/
 	}
 
 
