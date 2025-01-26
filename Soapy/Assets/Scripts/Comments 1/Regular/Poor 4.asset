@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Poor 4
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: Peter Poormen
+  userName: Tubby Tim
   comment: "My boss said I would lose my job if I kept smelling like this. I'm not
     even paid enough to afford soap.\r"
   profile: {fileID: 1277072787, guid: f807145c851ac4cd8bd93bdf3d0d9bb7, type: 3}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Activist 6
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: Greensworth Grinch
+  userName: Rebel Reeds
   comment: "We aren't happy with what the regime is doing. (Like this post so it
     reaches government officials)\r"
   profile: {fileID: -1224576278, guid: 91182d5c5f9264ef99b12aeeb898a594, type: 3}

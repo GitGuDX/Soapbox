@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Hacker 2
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: Mike Malware
+  userName: Tony Hack
   comment: "That's a nice sum of money here. How about you share some of it? Or else
     we'll expose your secret formula to the public.\r"
   profile: {fileID: -1374749327, guid: 1f6bd7007338c42f0ae9b2504a361aa0, type: 3}

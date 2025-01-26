@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Activist 3
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: Greensworth Grinch
+  userName: Rebel Reeds
   comment: "Sorry to burst your bubble but... large soap companies aren't actually
     the good guys. You should support local producers instead.\r"
   profile: {fileID: -1224576278, guid: 91182d5c5f9264ef99b12aeeb898a594, type: 3}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Activist 1
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: Activist
+  userName: Rebel Reeds
   comment: "USING TOO MUCH SOAP RUINS YOUR IMMUNE SYSTEM. Companies won't tell you
     that, because they want to sell more.\r"
   profile: {fileID: -1224576278, guid: 91182d5c5f9264ef99b12aeeb898a594, type: 3}

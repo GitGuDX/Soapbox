@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CEO 2
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: CoalDust Charlie
+  userName: Coaldust Charlie
   comment: "sniff... do you smell that? That's the smell of our brand new 7th generation
     Soapy X model 19 Series W. Now available at your local retailer!\r"
   profile: {fileID: -1111405094, guid: 212a3fec6cc814b21bc23de1fe772c56, type: 3}

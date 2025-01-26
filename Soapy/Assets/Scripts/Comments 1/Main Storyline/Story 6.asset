@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Story 6
   m_EditorClassIdentifier: 
   specialTrigger: 2
-  userName: Anonymous
+  userName: '#%?$#'
   comment: Wow... you really need to listen to what the soap has to say. Now I know
     the truth about the universe
   profile: {fileID: -843578165, guid: 91182d5c5f9264ef99b12aeeb898a594, type: 3}

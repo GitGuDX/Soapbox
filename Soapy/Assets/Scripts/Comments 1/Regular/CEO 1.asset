@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CEO 1
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: CoalDust Charlie
+  userName: Coaldust Charlie
   comment: "Proud to launch our brand new Royal Bubble luxury soaps line! Soap was
     never meant to be cheap, that's why it's twice as expensive now!\r"
   profile: {fileID: -1111405094, guid: 212a3fec6cc814b21bc23de1fe772c56, type: 3}

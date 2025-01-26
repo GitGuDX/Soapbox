@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Scientist 4
   m_EditorClassIdentifier: 
   specialTrigger: 1
-  userName: Ernest Ewald
+  userName: Gideon Glycerin
   comment: Are you ready to trade popularity for money? This pickle-flavored will
     do just that. Literally. (swap money and popularity)
   profile: {fileID: 37509107, guid: 5ae4027fd7cb04a2aaa2b0ad0e77d09c, type: 3}

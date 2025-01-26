@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Story 1
   m_EditorClassIdentifier: 
   specialTrigger: 2
-  userName: Anonymous
+  userName: '#%?$#'
   comment: Hey, can you hear me? I think I found a way to escape this bubbly mess.
     Are you listening?
   profile: {fileID: -843578165, guid: 91182d5c5f9264ef99b12aeeb898a594, type: 3}

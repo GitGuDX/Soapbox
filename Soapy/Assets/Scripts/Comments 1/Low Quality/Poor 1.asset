@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Poor 1
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: Peter Poormen
+  userName: Tubby Tim
   comment: I spent all my savings to buy the latest product from Bubbly. It smells
     so bad. Am I doing things wrong? I've never used soap before so i'm not sure
   profile: {fileID: 1277072787, guid: f807145c851ac4cd8bd93bdf3d0d9bb7, type: 3}
