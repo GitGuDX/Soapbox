@@ -16,7 +16,7 @@ MonoBehaviour:
   userName: Competitor
   comment: Some companies fly too close to the sun, and then they go bankrupt. We
     should learn from their mistakes, and never go against old and trusted companies.
-  profile: {fileID: 0}
+  profile: {fileID: 21300000, guid: fffdafa5826f3492681919afa83a7304, type: 3}
   moneyL: -5
   governmentL: 0
   popularityL: -5

@@ -10,8 +10,6 @@ public class CommentMove : MonoBehaviour
 
     public IEnumerator Transition() {
 
-        Debug.Log("AAAA");
-
         for (int i = 0; i < 120; i++){
 
             Comment.Translate(Vector3.up*1.5f*Screen.height*0.005f);

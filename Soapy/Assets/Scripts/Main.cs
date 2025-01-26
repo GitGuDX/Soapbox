@@ -286,8 +286,18 @@ public class Main : MonoBehaviour
 		
 		stats.text = stats.text = string.Format("Money: {0}\nPopularity: {1}\nQuality: {2}\nGovernment: {3}", money, popularity, quality, government);
 		
-		// Check for game over here
+		Debug.Log(money);
 		
+		/*
+		if (money >= 200) GameOver.SetGameOver(0);
+		else if (money <= 0) GameOver.SetGameOver(1);
+		else if (popularity >= 200) GameOver.SetGameOver(2);
+		else if (popularity <= 0) GameOver.SetGameOver(3);
+		else if (quality >= 200) GameOver.SetGameOver(4);
+		else if (quality <= 0) GameOver.SetGameOver(5);
+		else if (government >= 200) GameOver.SetGameOver(6);
+		else if (government <= 0) GameOver.SetGameOver(7);
+		*/
 	}
 
 

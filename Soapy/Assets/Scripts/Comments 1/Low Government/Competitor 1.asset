@@ -16,7 +16,7 @@ MonoBehaviour:
   userName: Competitor
   comment: Sad to see a fellow company go down the road of corruption... we're already
     at the bottom, but it's still sad to see you go down
-  profile: {fileID: 0}
+  profile: {fileID: 21300000, guid: fffdafa5826f3492681919afa83a7304, type: 3}
   moneyL: -5
   governmentL: 0
   popularityL: 0

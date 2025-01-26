@@ -14,7 +14,6 @@ public class CharacterMove : MonoBehaviour
 
     public IEnumerator Transition() {
 
-        Debug.Log("AAAA");
 
         float targetTime = 0;
 
