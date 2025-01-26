@@ -7,6 +7,8 @@ using UnityEngine.UI;
 public class Main : MonoBehaviour
 {
     
+	private bool canPressButtons = true;
+	
 	private int minStory = 7;
 	private int maxStory = 15;
 	
@@ -37,6 +39,9 @@ public class Main : MonoBehaviour
 	[SerializeField] Image profile;
 	
 	[Space]
+	
+	private string targetText;
+	private string currentText;
 	
 	[SerializeField] CommentSO defaultComment;
 	[SerializeField] CommentSO currentComment;
@@ -72,10 +77,14 @@ public class Main : MonoBehaviour
 		
 		currentComment = defaultComment;
 		updateUI();
+		SetScrollingText();
 		
 	}
 	
 	public void like() {
+		
+		if(!canPressButtons) return;
+		canPressButtons = false;
 		
 		if (currentComment.specialTrigger == CommentSO.SpecialTriggers.scientistUpgrade) upgradeSoap();
 		if (currentComment.specialTrigger == CommentSO.SpecialTriggers.mainStoryline && freakIndex == 2)
@@ -90,6 +99,9 @@ public class Main : MonoBehaviour
 	}
 	
 	public void dislike() {
+		
+		if(!canPressButtons) return;
+		canPressButtons = false;
 		
 		if (currentComment.specialTrigger == CommentSO.SpecialTriggers.mainStoryline) commentsUntilNextFreak = -1;
 		if (currentComment.specialTrigger == CommentSO.SpecialTriggers.trueEnding) Debug.Log("TRUE ENDING");
@@ -211,11 +223,43 @@ public class Main : MonoBehaviour
 	public void updateUI() {
 	
 		profile.sprite = currentComment.profile;
-		dialogueText.text = currentComment.comment;
 		username.text = currentComment.userName;
-		stats.text = stats.text = string.Format("Money: {0}\nPopularity: {1}\nQuality: {2}\nGovernment: {3}", money, popularity, quality, government);
+		targetText = currentComment.comment;
+		dialogueText.text = "";
 	
 	}
+	
+	public void SetScrollingText(){
+		
+		targetText = currentComment.comment;
+		currentText = "";
+		canPressButtons = true;
+		StartCoroutine("GraduallyDisplayText");	
+		
+	}
+	
+	private IEnumerator GraduallyDisplayText(){
+		int i = 0;
+		while(currentText.Length < targetText.Length){
+			
+			if (i >= targetText.Length) break;
+			
+			currentText += targetText[i];
+			dialogueText.text = currentText;
+			i++;
+			yield return new WaitForSeconds(.03f);
+			
+			if(!canPressButtons){
+				currentText += "";
+				dialogueText.text = currentText;
+				break;
+			}
+			
+		}
+		
+	}
+	
+	
 	
 	
 	private void affectStats(bool like) {
@@ -232,6 +276,8 @@ public class Main : MonoBehaviour
 			popularity += currentComment.popularityD * multiplier[2];
 			quality += currentComment.qualityD * multiplier[3];
 		}
+		
+		stats.text = stats.text = string.Format("Money: {0}\nPopularity: {1}\nQuality: {2}\nGovernment: {3}", money, popularity, quality, government);
 		
 		// Check for game over here
 		
