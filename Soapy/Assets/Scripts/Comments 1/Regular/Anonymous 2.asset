@@ -16,7 +16,7 @@ MonoBehaviour:
   userName: Anonymous
   comment: "i know all ur secrets...\r"
   profile: {fileID: 21300000, guid: b20ab2fb697414a5bbe953af7831641f, type: 3}
-  moneyL: 30
+  moneyL: 40
   governmentL: 0
   popularityL: 0
   qualityL: 0

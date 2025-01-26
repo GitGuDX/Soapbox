@@ -17,10 +17,10 @@ MonoBehaviour:
   comment: "I just found out soap contains a chemical called sodium cocoyl isethionate.
     Can you pronounce it? NO! Then \ryou shouldn't use it either!\r"
   profile: {fileID: 21300000, guid: 92bc4bddafb5d45bb924b76559f08ec1, type: 3}
-  moneyL: -10
+  moneyL: -15
   governmentL: 0
   popularityL: 0
-  qualityL: 10
+  qualityL: 15
   moneyD: 0
   governmentD: 0
   popularityD: -10

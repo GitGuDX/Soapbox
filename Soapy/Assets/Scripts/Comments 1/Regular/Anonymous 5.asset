@@ -21,9 +21,9 @@ MonoBehaviour:
   profile: {fileID: 21300000, guid: b20ab2fb697414a5bbe953af7831641f, type: 3}
   moneyL: 0
   governmentL: 0
-  popularityL: 15
+  popularityL: 35
   qualityL: 0
   moneyD: 0
   governmentD: 0
-  popularityD: -20
+  popularityD: -35
   qualityD: 0

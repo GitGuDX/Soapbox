@@ -17,9 +17,9 @@ MonoBehaviour:
   comment: Lucky for you! We found information on your competitor and would love
     to share! If you can pay us of course.
   profile: {fileID: 21300000, guid: 552e448221924423f8261d6d4cb1470e, type: 3}
-  moneyL: -15
+  moneyL: -25
   governmentL: 0
-  popularityL: 15
+  popularityL: 25
   qualityL: 0
   moneyD: 0
   governmentD: 5

@@ -16,11 +16,11 @@ MonoBehaviour:
   userName: Alien
   comment: "ZORPY WORPY BLEEP &&^&^&&^#### YOUR PLANET IS OURS TO KEEP\r"
   profile: {fileID: 21300000, guid: f3f6a095f728144459f2726c835c7a16, type: 3}
-  moneyL: -10
-  governmentL: -10
-  popularityL: -10
-  qualityL: -10
-  moneyD: -20
-  governmentD: 20
-  popularityD: 20
+  moneyL: -15
+  governmentL: -15
+  popularityL: -15
+  qualityL: -15
+  moneyD: -35
+  governmentD: 35
+  popularityD: 35
   qualityD: 0

@@ -19,8 +19,8 @@ MonoBehaviour:
   moneyL: 0
   governmentL: 0
   popularityL: 0
-  qualityL: 25
+  qualityL: 40
   moneyD: 0
   governmentD: 0
   popularityD: 0
-  qualityD: 25
+  qualityD: 40

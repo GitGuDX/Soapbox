@@ -18,11 +18,11 @@ MonoBehaviour:
     it! They might be the second best now, but they still bring fresh ideas to the
     market. Bubbly should take notes...\r"
   profile: {fileID: 21300000, guid: 25f5752b0a90a40cebb5d488ec9de900, type: 3}
-  moneyL: 15
+  moneyL: 35
   governmentL: 0
   popularityL: 0
-  qualityL: -15
-  moneyD: -10
+  qualityL: -35
+  moneyD: -35
   governmentD: 0
-  popularityD: 10
-  qualityD: 5
+  popularityD: 35
+  qualityD: 10

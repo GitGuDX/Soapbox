@@ -20,7 +20,7 @@ MonoBehaviour:
   governmentL: 0
   popularityL: 0
   qualityL: 0
-  moneyD: -25
-  governmentD: -25
-  popularityD: -25
-  qualityD: -25
+  moneyD: -40
+  governmentD: -40
+  popularityD: -40
+  qualityD: -40
