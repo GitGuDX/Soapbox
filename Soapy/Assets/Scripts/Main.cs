@@ -94,7 +94,7 @@ public class Main : MonoBehaviour
 		if (currentComment.specialTrigger == CommentSO.SpecialTriggers.scientistUpgrade) upgradeSoap();
 		if (currentComment.specialTrigger == CommentSO.SpecialTriggers.mainStoryline && freakIndex == 2)
 			quality = Mathf.Clamp(quality, quality, 20);
-		if (currentComment.specialTrigger == CommentSO.SpecialTriggers.trueEnding) Debug.Log("TRUE ENDING");
+		if (currentComment.specialTrigger == CommentSO.SpecialTriggers.trueEnding) GameOver.SetGameOver(8);
 		
 		affectStats(true);
 		pickNextComment();
@@ -287,7 +287,7 @@ public class Main : MonoBehaviour
 		stats.text = stats.text = string.Format("Money: {0}\nPopularity: {1}\nQuality: {2}\nGovernment: {3}", money, popularity, quality, government);
 		
 		Debug.Log(money);
-		
+			
 		if (money >= 200) GameOver.SetGameOver(0);
 		else if (money <= 0) GameOver.SetGameOver(1);
 		else if (popularity >= 200) GameOver.SetGameOver(2);
