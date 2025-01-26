@@ -10,10 +10,17 @@ public class BubbleMovement : MonoBehaviour
     private float desiredDuration = 2f;
     private float elapsedTime;
     private float xInterval = 50f;
+    //audio
+
+    AudioManager audioManager;
     // Start is called before the first frame update
+
+    private void Awake() {
+    
+}
     void Start()
     {
-        
+       audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>(); 
         
        StartCoroutine(FirstLerp());
        StartCoroutine(DeleteBubble());
@@ -33,6 +40,7 @@ public class BubbleMovement : MonoBehaviour
         yield return new WaitForSeconds(7f);
         float deleteInterval = Random.Range(0, 4f);
         yield return new WaitForSeconds(deleteInterval);
+        audioManager.PlaySFX(audioManager.bubblePopping);
         Destroy(gameObject);
     }
 

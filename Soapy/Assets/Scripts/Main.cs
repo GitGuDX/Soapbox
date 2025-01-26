@@ -72,9 +72,14 @@ public class Main : MonoBehaviour
 
 	[SerializeField] CharacterMove characterMove;
 	[SerializeField] CommentMove commentMove;
+
+	//Audio
+	AudioManager audioManager;
+
+	
 	
 	private void Start() {
-		
+		audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>(); 
 		currentComment = defaultComment;
 		updateUI();
 		SetScrollingText();
@@ -95,6 +100,7 @@ public class Main : MonoBehaviour
 		pickNextComment();
 		characterMove.StartCoroutine("Transition");
 		commentMove.StartCoroutine("Transition");
+		audioManager.PlaySFX(audioManager.like);
 		
 	}
 	
@@ -110,6 +116,7 @@ public class Main : MonoBehaviour
 		pickNextComment();
 		characterMove.StartCoroutine("Transition");
 		commentMove.StartCoroutine("Transition");
+		audioManager.PlaySFX(audioManager.dislike);
 		
 	}
 	
