@@ -582,16 +582,41 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 0009d5e0bff17f744858227766630987, type: 3}
   - {fileID: 21300000, guid: 7891b4de4293479469599837ca63f152, type: 3}
   - {fileID: 21300000, guid: 42fdf67b07d12ae43a0458ce87d26c04, type: 3}
+  - {fileID: 21300000, guid: 632a50bb891fbe8448154c6804932071, type: 3}
   endingTexts:
-  - 0
-  - 1
-  - 2
-  - 3
-  - 4
-  - 5
-  - 6
-  - 7
-  - 8
+  - 'With wealth beyond measure, your company becomes a ruthless monopoly, crushing
+    all competition. But the oppressed soapmakers band together, bursting your bubble
+    and dismantling your empire. "Your monopoly has popped like a soap bubble." '
+  - "Bankruptcy takes everything from you: your home, your family, and your pride.
+    Desperate and broken, you find yourself on a subway, where a stranger in a suit
+    proposes playing an old kid\u2019s game to regain all of your lost wealth\u2026
+    if you win against him. "
+  - Your company becomes a cult-like sensation, with fanatics treating your soap
+    as a miracle product. Overzealous mobs demand competitors shut down, and the
+    government intervenes to dissolve your company, claiming it disrupts social order.
+    "Soaplandia cannot survive with only one brand of soap ruling its people."
+  - 'Your product becomes so hated that you are branded as the villain of Soaplandia,
+    a universal scapegoat. Your family disowns you, and a furious mob drags you through
+    the streets, sticking your head in a dirty old toilet, a faith everyone agrees
+    you deserve. "The world has judged you, and the verdict is filth." '
+  - "Your soap\u2019s miraculous properties transform it into a panacea, curing diseases
+    and ending the pharmaceutical industry. But your innovation disrupts the balance
+    of power, and an assassin from Big Pharma ends your revolution with a single
+    fatal blow. \"Your soap saved lives, but it couldn\u2019t save your own.\" "
+  - 'Contaminated factories and subpar ingredients turn your product into a weapon
+    of filth. A mutated fungal plague spreads worldwide, making your soap infamous
+    for creating a grotesque new species: the Soap Shrooms. "In your quest for profit,
+    you unleashed a plague of unclean horrors." '
+  - 'Aligning your company with the government makes your soap a symbol of control
+    and compliance. When the people revolt and topple the regime, your brand collapses,
+    leaving a legacy of oppression and unjustice. "You washed the government, but
+    at what cost?" '
+  - "Repeated fines, neglect of regulations, and disregard for bureaucracy land you
+    in prison. You find yourself in a cell alongside generations of your family\u2019s
+    failed soap magnates, haunted by the unbroken curse.   \"The bars of your cell
+    echo with the regrets of your ancestors.\" "
+  - The talking soap whispered the secrets of the universe in your ear. It's too
+    good to be put into words. You have finally escaped the bubble you live in
   img: {fileID: 693915776}
   text: {fileID: 2137874554}
 --- !u!1 &2137874552
