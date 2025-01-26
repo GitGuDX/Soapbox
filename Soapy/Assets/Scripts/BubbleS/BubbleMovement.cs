@@ -53,7 +53,7 @@ public class BubbleMovement : MonoBehaviour
         {
             float percentageComplete = elapsedTime / desiredDuration;
             Vector3 lerpedPosition = Vector3.Lerp(startPoint, endPoint, percentageComplete);
-            transform.position = new Vector3(lerpedPosition.x, transform.position.y + (40f * Time.deltaTime), lerpedPosition.z);
+            transform.position = new Vector3(lerpedPosition.x, transform.position.y + (40f * Time.deltaTime * Screen.height * 0.002f), lerpedPosition.z);
             elapsedTime += Time.deltaTime;
             yield return null;
         }
@@ -73,7 +73,7 @@ public class BubbleMovement : MonoBehaviour
 
             float percentageComplete = elapsedTime / desiredDuration;
             Vector3 lerpedPosition = Vector3.Lerp(endPoint, newStartPoint, percentageComplete);
-            transform.position = new Vector3(lerpedPosition.x, transform.position.y + (40f * Time.deltaTime), lerpedPosition.z);
+            transform.position = new Vector3(lerpedPosition.x, transform.position.y + (40f * Time.deltaTime * Screen.height * 0.002f), lerpedPosition.z);
             elapsedTime += Time.deltaTime;
             yield return null;
         }

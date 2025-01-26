@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b8c364ffb330d47843fed3c7efc138, type: 3}
+  m_Name: Hacker 1
+  m_EditorClassIdentifier: 
+  specialTrigger: 0
+  userName: Hacker
+  comment: "That's way too much money you have here. I know some hackers who might
+    break into your account to steal it. I can protect you, but I need something
+    in return... maybe some government secrets.\r"
+  profile: {fileID: 21300000, guid: 552e448221924423f8261d6d4cb1470e, type: 3}
+  moneyL: 0
+  governmentL: -25
+  popularityL: 0
+  qualityL: 0
+  moneyD: -50
+  governmentD: 0
+  popularityD: 0
+  qualityD: 0

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b8c364ffb330d47843fed3c7efc138, type: 3}
+  m_Name: Hacker 1
+  m_EditorClassIdentifier: 
+  specialTrigger: 0
+  userName: Hacker
+  comment: Things aren't going too well for you... here's a bottle containing some
+    chemicals. Don't ask many questions, just drop it in your next batch of soap.
+    My clients will pay nicely...
+  profile: {fileID: 21300000, guid: 552e448221924423f8261d6d4cb1470e, type: 3}
+  moneyL: 30
+  governmentL: 0
+  popularityL: 0
+  qualityL: -20
+  moneyD: -10
+  governmentD: 0
+  popularityD: 0
+  qualityD: 15

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b8c364ffb330d47843fed3c7efc138, type: 3}
+  m_Name: Hacker
+  m_EditorClassIdentifier: 
+  specialTrigger: 0
+  userName: Hacker
+  comment: Your soap seems too bad to be sold on the market. I have a client who
+    wants to buy your bad batch of soap, for a handsome price. You can then create
+    a better batch. Though the government might not like this...
+  profile: {fileID: 21300000, guid: 552e448221924423f8261d6d4cb1470e, type: 3}
+  moneyL: 20
+  governmentL: -20
+  popularityL: 0
+  qualityL: 20
+  moneyD: 0
+  governmentD: 10
+  popularityD: 0
+  qualityD: -15

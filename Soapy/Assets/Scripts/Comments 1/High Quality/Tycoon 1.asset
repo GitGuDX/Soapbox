@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b8c364ffb330d47843fed3c7efc138, type: 3}
+  m_Name: Tycoon 1
+  m_EditorClassIdentifier: 
+  specialTrigger: 0
+  userName: Tycoon
+  comment: "I must say... it's rare to see a product on the market that's actually
+    functional. Does it make good profit though? I don't think so. Switch your formula
+    to something less organic before you make losses.\r"
+  profile: {fileID: 21300000, guid: 22360165c17d94b6aba811393e5c0ead, type: 3}
+  moneyL: 20
+  governmentL: 0
+  popularityL: 0
+  qualityL: -25
+  moneyD: -30
+  governmentD: 0
+  popularityD: 0
+  qualityD: 0
