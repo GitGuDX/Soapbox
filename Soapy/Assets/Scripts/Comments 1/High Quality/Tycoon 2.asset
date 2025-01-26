@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Tycoon 2
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: Tycoon
+  userName: Alexandro Aveeno
   comment: I don't think my friends like your soap formula all that much. I'll ask
     them as soon as they're done showering.
   profile: {fileID: 21300000, guid: 22360165c17d94b6aba811393e5c0ead, type: 3}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Government 1
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: Government Official
+  userName: Foamin Fitzroy
   comment: "Congratulations to all our valued workers, your minimum wage has been
     increased, and working hours decreased! Which means work less, and earn more!\r"
   profile: {fileID: 21300000, guid: b47dd7cad70d34413bf4af49a024dc61, type: 3}

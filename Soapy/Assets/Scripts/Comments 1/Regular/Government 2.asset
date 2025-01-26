@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Government 2
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: Government Official
+  userName: Foamin Fitzroy
   comment: "Never forget, if Bubbly became the first soap producer in the world,
     it is only due to the taxes from the people. Keep paying taxes!\r"
   profile: {fileID: 21300000, guid: b47dd7cad70d34413bf4af49a024dc61, type: 3}

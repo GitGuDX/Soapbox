@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Government 2
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: Government
+  userName: Foamin Fitzroy
   comment: All companies must comply with our new chemical regulations, especially
     soap producers. You must only use the products we approve of.
   profile: {fileID: 21300000, guid: b47dd7cad70d34413bf4af49a024dc61, type: 3}

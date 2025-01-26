@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Tycoon1
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: Tycoon
+  userName: Alexandro Aveeno
   comment: Bubbly... we all know this isn't working out... I have clients who can
     get you out of this, just say the word and work with me!
   profile: {fileID: 21300000, guid: 22360165c17d94b6aba811393e5c0ead, type: 3}

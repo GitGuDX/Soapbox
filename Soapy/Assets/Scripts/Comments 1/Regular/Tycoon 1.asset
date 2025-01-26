@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Tycoon 1
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: Tycoon
+  userName: Alexandro Aveeno
   comment: Bubbly should put all their money to good use. If you guys invest in more
     projects and stimulate the local economy, we'll all become billionaires!
   profile: {fileID: 21300000, guid: 22360165c17d94b6aba811393e5c0ead, type: 3}

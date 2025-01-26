@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Tycoon 2
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: Tycoon
+  userName: Alexandro Aveeno
   comment: "With my money and your fame, we'll both become rich. Let's hope the government
     won't mind this\r.\r"
   profile: {fileID: 21300000, guid: 22360165c17d94b6aba811393e5c0ead, type: 3}

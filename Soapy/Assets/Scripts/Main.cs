@@ -51,7 +51,7 @@ public class Main : MonoBehaviour
 	
 	[Space]
 	
-	[SerializeField] float money , popularity, quality, government;
+	[SerializeField] public float money , popularity, quality, government;
 	
 	[Space]
 	

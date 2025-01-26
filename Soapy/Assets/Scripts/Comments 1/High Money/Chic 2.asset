@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Chic 2
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: Chic
+  userName: Lady Lavender
   comment: I wonder what it's like, not worrying about luxury and money and bubbles.
     I don't think I could handle such life.
   profile: {fileID: 21300000, guid: 25f5752b0a90a40cebb5d488ec9de900, type: 3}

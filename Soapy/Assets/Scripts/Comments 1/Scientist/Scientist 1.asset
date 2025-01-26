@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Scientist 1
   m_EditorClassIdentifier: 
   specialTrigger: 1
-  userName: Scientist
+  userName: Ernest Ewald
   comment: Hello there, we just created a new soap. Lavender-mango flavored! I don't
     know how your customers will take this. Either very good or very bad. (1.2 times
     stats increase/decrease)

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Chic 1
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: Chic
+  userName: Lady Lavender
   comment: I was talking to one of my servants the other day and... They use soap
     to clean themselves???!!! I thought only us normal people do that...
   profile: {fileID: 21300000, guid: 25f5752b0a90a40cebb5d488ec9de900, type: 3}

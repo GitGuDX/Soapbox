@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Tycoon2
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: Tycoon
+  userName: Alexandro Aveeno
   comment: Fellow investors, always look for companies going bankrupt! They're the
     easiest to acquire. Buy shares!
   profile: {fileID: 21300000, guid: 22360165c17d94b6aba811393e5c0ead, type: 3}

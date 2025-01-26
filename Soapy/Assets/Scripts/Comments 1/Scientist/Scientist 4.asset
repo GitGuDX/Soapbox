@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Scientist 4
   m_EditorClassIdentifier: 
   specialTrigger: 1
-  userName: Scientist
+  userName: Ernest Ewald
   comment: Are you ready to trade popularity for money? This pickle-flavored will
     do just that. Literally. (swap money and popularity)
   profile: {fileID: 21300000, guid: 020801a9e17c1424eb8132f8553b4d2f, type: 3}

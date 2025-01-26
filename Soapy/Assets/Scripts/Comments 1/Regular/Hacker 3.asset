@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Hacker 3
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: Hacker
+  userName: Mike Malware
   comment: "Some weirdo online has been snooping for a suspicious amount of soap...
     you don't need to know what he's up to, but he'll pay nicely...\r"
   profile: {fileID: 21300000, guid: 552e448221924423f8261d6d4cb1470e, type: 3}

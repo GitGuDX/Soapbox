@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CEO 1
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: CEO
+  userName: CoalDust Charlie
   comment: Bubbly's soap is too good to be true. You know why? Because it isn't actually
     real. Stop listening to their lies. Our soap is much more real.
   profile: {fileID: 21300000, guid: fffdafa5826f3492681919afa83a7304, type: 3}

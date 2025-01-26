@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Hacker 1
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: Hacker
+  userName: Mike Malware
   comment: Many people are Soapy+ subscribers. Sell us the data of your users. You'll
     get a nice reward.
   profile: {fileID: 21300000, guid: 552e448221924423f8261d6d4cb1470e, type: 3}

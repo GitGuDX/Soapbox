@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Hacker 2
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: Hacker
+  userName: Mike Malware
   comment: Sell us your soap formula. We will get you out of this situation.
   profile: {fileID: 21300000, guid: 552e448221924423f8261d6d4cb1470e, type: 3}
   moneyL: 25

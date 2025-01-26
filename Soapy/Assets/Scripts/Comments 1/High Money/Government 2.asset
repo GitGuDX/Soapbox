@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Government 2
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: Government Official
+  userName: Foamin Fitzroy
   comment: "If a company gets rich, it's thanks to your beloved government. You can
     show your gratitude by paying twice as many taxes.\r"
   profile: {fileID: 21300000, guid: b47dd7cad70d34413bf4af49a024dc61, type: 3}

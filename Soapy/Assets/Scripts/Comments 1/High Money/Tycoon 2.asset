@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Tycoon 2
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: Tycoon
+  userName: Alexandro Aveeno
   comment: Do you smell that? It's the smell of marketing. You got the money, we
     got the means. The people will love this.
   profile: {fileID: 21300000, guid: 22360165c17d94b6aba811393e5c0ead, type: 3}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Anonymous 2
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: Anonymous
+  userName: '#%?$#'
   comment: "i know all ur secrets...\r"
   profile: {fileID: 21300000, guid: b20ab2fb697414a5bbe953af7831641f, type: 3}
   moneyL: 40

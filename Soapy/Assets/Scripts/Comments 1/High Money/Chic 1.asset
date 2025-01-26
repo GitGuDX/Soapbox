@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Chic 1
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: Chic
+  userName: Lady Lavender
   comment: "Bubbly's soap is more expensive than ever. Makes me want to buy even
     more soap! I love expensive things\r"
   profile: {fileID: 21300000, guid: 25f5752b0a90a40cebb5d488ec9de900, type: 3}

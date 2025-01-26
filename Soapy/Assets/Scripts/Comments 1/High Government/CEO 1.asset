@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CEO 1
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: CEO
+  userName: CoalDust Charlie
   comment: "So you think working under the government will protect you from hostile
     company takeovers? You're absolutely right, but this is cheating. Losers.\r"
   profile: {fileID: 21300000, guid: fffdafa5826f3492681919afa83a7304, type: 3}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Chic 1
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: Chic
+  userName: Lady Lavender
   comment: People aren't buying Bubbly products anymore. Do you know why? It's because
     they're too expensive for the commoners. This is perfect.
   profile: {fileID: 21300000, guid: 25f5752b0a90a40cebb5d488ec9de900, type: 3}

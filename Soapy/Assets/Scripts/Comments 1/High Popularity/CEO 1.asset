@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CEO 1
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: CEO
+  userName: CoalDust Charlie
   comment: "Hey guys, please don't forget about us. Everyone is buying soap from
     Bubbly, but we also make good soap. Sometimes.\r"
   profile: {fileID: 21300000, guid: fffdafa5826f3492681919afa83a7304, type: 3}
