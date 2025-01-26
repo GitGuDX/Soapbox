@@ -16,7 +16,7 @@ MonoBehaviour:
   userName: Lady Lavender
   comment: "Bubbly's soap is more expensive than ever. Makes me want to buy even
     more soap! I love expensive things\r"
-  profile: {fileID: 21300000, guid: 25f5752b0a90a40cebb5d488ec9de900, type: 3}
+  profile: {fileID: -1451645532, guid: f807145c851ac4cd8bd93bdf3d0d9bb7, type: 3}
   moneyL: 10
   governmentL: 0
   popularityL: 0

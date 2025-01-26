@@ -16,7 +16,7 @@ MonoBehaviour:
   userName: Lady Lavender
   comment: THIS IS HORRIBLE. MY SKIN IS TARNISHED. I HAVE RED PIMPLES ALL OVER MY
     FACE. BUBBLY, THIS IS BECAUSE OF YOU. WHAT HAVE YOU DONE??
-  profile: {fileID: 21300000, guid: 25f5752b0a90a40cebb5d488ec9de900, type: 3}
+  profile: {fileID: -1451645532, guid: f807145c851ac4cd8bd93bdf3d0d9bb7, type: 3}
   moneyL: -10
   governmentL: -10
   popularityL: 15

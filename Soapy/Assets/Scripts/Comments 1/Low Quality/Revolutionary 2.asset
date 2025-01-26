@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Revolutionary 2
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: Revolutionary
+  userName: Greensworth Grinch
   comment: People! Anyone who bought low quality soap from Bubbly should be reimbursed.
     If they refuse to then never buy their products again!
-  profile: {fileID: 0}
+  profile: {fileID: -1224576278, guid: 91182d5c5f9264ef99b12aeeb898a594, type: 3}
   moneyL: -15
   governmentL: 0
   popularityL: 15

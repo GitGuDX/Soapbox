@@ -17,7 +17,7 @@ MonoBehaviour:
   comment: My skin has red scars and pimples like the homeless person down the street,
     what's the point of being part of the social elites  if they can't differentiate
     you from the filthy peasants of the working class?!?
-  profile: {fileID: 21300000, guid: 25f5752b0a90a40cebb5d488ec9de900, type: 3}
+  profile: {fileID: -1451645532, guid: f807145c851ac4cd8bd93bdf3d0d9bb7, type: 3}
   moneyL: 10
   governmentL: 0
   popularityL: -20

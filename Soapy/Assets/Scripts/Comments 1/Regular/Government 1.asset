@@ -16,7 +16,7 @@ MonoBehaviour:
   userName: Foamin Fitzroy
   comment: "Congratulations to all our valued workers, your minimum wage has been
     increased, and working hours decreased! Which means work less, and earn more!\r"
-  profile: {fileID: 21300000, guid: b47dd7cad70d34413bf4af49a024dc61, type: 3}
+  profile: {fileID: -1741204275, guid: 212a3fec6cc814b21bc23de1fe772c56, type: 3}
   moneyL: -35
   governmentL: 0
   popularityL: 0

@@ -27,7 +27,7 @@ public class BubbleSpawnManager : MonoBehaviour
     void SpawningBubble()
     {
         randomX = bubbleXposition[Random.Range(0, bubbleXposition.Length)];
-        newBubble = Instantiate(bubble, new Vector3(randomX, -180, 0), Quaternion.identity);
+        newBubble = Instantiate(bubble, new Vector3(randomX, -250, 0), Quaternion.identity);
 
         newBubble.transform.SetParent(parentObject, false);
     }

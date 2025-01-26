@@ -17,7 +17,7 @@ MonoBehaviour:
   comment: "Some soap producers have been making way too much profit recently. Rest
     assured that we are investigating the matter and looking for new ways to tax
     them.\r"
-  profile: {fileID: 21300000, guid: b47dd7cad70d34413bf4af49a024dc61, type: 3}
+  profile: {fileID: -1741204275, guid: 212a3fec6cc814b21bc23de1fe772c56, type: 3}
   moneyL: -30
   governmentL: 25
   popularityL: 0

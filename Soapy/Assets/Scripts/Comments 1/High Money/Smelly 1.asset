@@ -16,7 +16,7 @@ MonoBehaviour:
   userName: Smeagun Smith
   comment: "Can't believe companies are getting rich by selling products as useless
     as soap. Who would even buy this?\r"
-  profile: {fileID: 21300000, guid: 396feab81eb904222bae4c53b21e5d49, type: 3}
+  profile: {fileID: 1525554418, guid: f807145c851ac4cd8bd93bdf3d0d9bb7, type: 3}
   moneyL: -15
   governmentL: 0
   popularityL: 15

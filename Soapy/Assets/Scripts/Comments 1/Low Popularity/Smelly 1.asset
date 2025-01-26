@@ -16,7 +16,7 @@ MonoBehaviour:
   userName: Smeagun Smith
   comment: Soap? BLEGH! We hate soap, and we hate Bubbly even more! If they update
     their formula to make it less soapy, I might give it another try...
-  profile: {fileID: 21300000, guid: 396feab81eb904222bae4c53b21e5d49, type: 3}
+  profile: {fileID: 1525554418, guid: f807145c851ac4cd8bd93bdf3d0d9bb7, type: 3}
   moneyL: -10
   governmentL: 0
   popularityL: 20

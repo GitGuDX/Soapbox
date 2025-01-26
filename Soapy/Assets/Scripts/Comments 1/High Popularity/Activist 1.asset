@@ -16,7 +16,7 @@ MonoBehaviour:
   userName: Activist
   comment: PLEASE STOP BUYING SOAP. The chemicals are getting to your brains. This
     needs to be stopped...
-  profile: {fileID: 21300000, guid: 92bc4bddafb5d45bb924b76559f08ec1, type: 3}
+  profile: {fileID: -1224576278, guid: 91182d5c5f9264ef99b12aeeb898a594, type: 3}
   moneyL: -15
   governmentL: 0
   popularityL: 0

@@ -17,7 +17,7 @@ MonoBehaviour:
   comment: Most our workers are on sickness leave. They got their diseases from using
     low quality soap. Worst part is, we still have to pay them. We will work hard
     with soap producers to improve the quality of their product
-  profile: {fileID: 21300000, guid: b47dd7cad70d34413bf4af49a024dc61, type: 3}
+  profile: {fileID: -1741204275, guid: 212a3fec6cc814b21bc23de1fe772c56, type: 3}
   moneyL: 0
   governmentL: 10
   popularityL: 0

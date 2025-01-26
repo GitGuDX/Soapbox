@@ -17,7 +17,7 @@ MonoBehaviour:
   comment: "I have a job interview next week. They won\u2019t hire me if I don\u2019t
     smell right. But I can't shower without soap. I can't buy soap without money.
     I can't have money without a JOB!\r"
-  profile: {fileID: 21300000, guid: 4e7b6d5a8cad24c17a22b44e114420a6, type: 3}
+  profile: {fileID: 1277072787, guid: f807145c851ac4cd8bd93bdf3d0d9bb7, type: 3}
   moneyL: 0
   governmentL: 0
   popularityL: 20

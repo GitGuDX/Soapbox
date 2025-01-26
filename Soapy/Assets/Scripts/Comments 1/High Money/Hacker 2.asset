@@ -16,7 +16,7 @@ MonoBehaviour:
   userName: Mike Malware
   comment: "That's a nice sum of money here. How about you share some of it? Or else
     we'll expose your secret formula to the public.\r"
-  profile: {fileID: 21300000, guid: 552e448221924423f8261d6d4cb1470e, type: 3}
+  profile: {fileID: -1374749327, guid: 1f6bd7007338c42f0ae9b2504a361aa0, type: 3}
   moneyL: -30
   governmentL: 0
   popularityL: 0

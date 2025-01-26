@@ -19,7 +19,7 @@ MonoBehaviour:
     bad, but soap companies don''t want you to know this.
 
 '
-  profile: {fileID: 21300000, guid: 396feab81eb904222bae4c53b21e5d49, type: 3}
+  profile: {fileID: 1525554418, guid: f807145c851ac4cd8bd93bdf3d0d9bb7, type: 3}
   moneyL: -20
   governmentL: -10
   popularityL: 15
