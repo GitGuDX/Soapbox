@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Alien 1
   m_EditorClassIdentifier: 
   specialTrigger: 0
-  userName: Alien
+  userName: Kevin
   comment: "ZLORP VORP MORP ---!-!!-! GIVE US ALL YOUR XSZOAP\r"
   profile: {fileID: -330381354, guid: 5ae4027fd7cb04a2aaa2b0ad0e77d09c, type: 3}
   moneyL: 0
