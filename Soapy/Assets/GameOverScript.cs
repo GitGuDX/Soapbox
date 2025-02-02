@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameOverScript : MonoBehaviour
 {
@@ -24,5 +25,17 @@ public class GameOverScript : MonoBehaviour
 		img.sprite = endings[i];
 		
     }
+
+	public void BackToMenu(){
+		
+		SceneManager.LoadScene("Main_Menu");
+		
+	}
+	
+	public void QuitGame(){
+		
+		Application.Quit();
+		
+	}
 
 }

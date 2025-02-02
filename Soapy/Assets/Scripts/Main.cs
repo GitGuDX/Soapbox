@@ -40,6 +40,11 @@ public class Main : MonoBehaviour
 	
 	[Space]
 	
+	[SerializeField] Image soapImg;
+	[SerializeField] Sprite[] soapIcons;
+	
+	[Space]
+	
 	private string targetText;
 	private string currentText;
 	
@@ -72,6 +77,10 @@ public class Main : MonoBehaviour
 
 	[SerializeField] CharacterMove characterMove;
 	[SerializeField] CommentMove commentMove;
+	
+	[Space]
+	
+	[SerializeField] AudioClip[] sfx;
 
 	//Audio
 	AudioManager audioManager;
@@ -83,6 +92,7 @@ public class Main : MonoBehaviour
 		currentComment = defaultComment;
 		updateUI();
 		SetScrollingText();
+		soapImg.sprite = soapIcons[0];
 		
 	}
 	
@@ -127,14 +137,17 @@ public class Main : MonoBehaviour
 			case 1:
 				Debug.Log("1.2 times increase/decrease");
 				multiplier = new float[] {1.2f,1.2f,1.2f,1.2f};
+				soapImg.sprite = soapIcons[1];
 				break;
 			case 2:
 				Debug.Log("Lock popularity");
 				multiplier = new float[] {1,1,0,1};
+				soapImg.sprite = soapIcons[2];
 				break;
 			case 3:
 				Debug.Log("Lock government");
 				multiplier = new float[] {1,0,1,1};
+				soapImg.sprite = soapIcons[3];
 				break;
 			case 4:
 				Debug.Log("Swap money and popularity");
@@ -142,6 +155,7 @@ public class Main : MonoBehaviour
 				float t = money;
 				money = popularity;
 				popularity = t;
+				soapImg.sprite = soapIcons[4];
 				break;
 			case 5:
 				Debug.Log("Swap quality and popularity");
@@ -149,6 +163,7 @@ public class Main : MonoBehaviour
 				float t2 = quality;
 				quality = popularity;
 				popularity = t2;
+				soapImg.sprite = soapIcons[5];
 				break;
 			case 6:
 				Debug.Log("Reset all stats");
@@ -157,11 +172,13 @@ public class Main : MonoBehaviour
 				government = 100;
 				popularity = 100;
 				quality = 100;
+				soapImg.sprite = soapIcons[6];
 				break;
 			case 7:
 				Debug.Log("More freaks");
 				multiplier = new float[] {1,1,1,1};
 				moreFreaks = true;
+				soapImg.sprite = soapIcons[7];
 				break;
 			default:
 				Debug.LogError("None");
@@ -233,6 +250,44 @@ public class Main : MonoBehaviour
 		username.text = currentComment.userName;
 		targetText = currentComment.comment;
 		dialogueText.text = "";
+		
+		switch(currentComment.userName){
+			
+			case "Kevin":
+				audioManager.PlaySFX(sfx[0]);
+				break;
+			case "Greensworth Grinch":
+				audioManager.PlaySFX(sfx[1]);
+				break;
+			case "CoalDust Charlie":
+				audioManager.PlaySFX(sfx[2]);
+				break;
+			case "Lady Lavender":
+				audioManager.PlaySFX(sfx[3]);
+				break;
+			case "Foamin Fitzroy":
+				audioManager.PlaySFX(sfx[4]);
+				break;
+			case "Mike Malware":
+				audioManager.PlaySFX(sfx[5]);
+				break;
+			case "Peter Poormen":
+				audioManager.PlaySFX(sfx[6]);
+				break;
+			case "Smeagun Smith":
+				audioManager.PlaySFX(sfx[7]);
+				break;
+			case "Alexandro Aveeno":
+				audioManager.PlaySFX(sfx[8]);
+				break;
+			case "#%?$#":
+				audioManager.PlaySFX(sfx[9]);
+				break;
+			case "Ernest Ewald":
+				audioManager.PlaySFX(sfx[10]);
+				break;
+			
+		}
 	
 	}
 	
